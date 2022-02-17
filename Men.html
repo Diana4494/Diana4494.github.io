@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <title>Men Haircuts</title>
+        <style type="text/css">
+         body{
+            background-image:url("shaving machines.jpg");
+            
+            background-position: center;
+         
+            overscroll-behavior-block:inherit;
+            background-repeat: no-repeat;
+            margin-top: 0px;
+        }
+        header{
+           
+            position: relative;
+           color: saddlebrown;
+           padding-left: 240px;
+           vertical-align: middle;
+           margin-top: 0px;
+           
+           background-color: wheat;
+           border-top-color: wheat;
+           border-bottom: wheat;
+           border-right: wheat;
+           border-left-color:wheat;
+  
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            font-family:Georgia, 'Times New Roman', Times;
+            padding-right: 300px;
+            color: saddlebrown;
+            font-weight:normal;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        #downarrow2{
+            width: 30px;
+            height: 30px;
+border: none;
+            vertical-align: bottom;
+        }
+        ul, li{
+            display: inline;
+            font-size: 35px;
+            color:saddlebrown;
+            text-align: center;
+            padding-inline: 25px;
+
+
+        }
+         /* set the position of dropdown */  
+.dropdown {  
+     position: relative;  
+     display: inline-block;  
+    
+}  
+        #list-items a{
+            display: block;
+            
+        }
+        /* provide css to background of list items */   
+#list-items {  
+    display: none;  
+    position: absolute;
+background-color: white;
+  }
+.button{
+    color: saddlebrown;
+            font-style: normal;
+            text-decoration-style: none;
+            text-decoration: none;
+            border: none;
+            background-color: wheat;
+            font-size: 35px;
+            font-family: inherit;
+          
+}
+      
+        a{
+            color: saddlebrown;
+            font-style: normal;
+            text-decoration-style: none;
+            text-decoration: none;
+        }
+            
+        article{
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+        figure{
+            float: left;
+            padding: 5px;
+            margin: 20px;
+          ;
+        }
+    #hairwash {
+        width: 600px;
+        height: 130px;
+        float: right;
+        margin-top: 100px;
+        margin-left: 20px;
+        border-style: groove;
+        border-color: black;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: wheat;
+        font-size: 24px;
+
+    }
+    #haircut1{
+        width: 600px;
+        height: 130px;
+        float: left;
+        margin-top: 100px;
+        margin-right: 20px;
+        border-style: groove;
+        border-color: black;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: wheat;
+        font-size: 24px;
+    }
+    img{
+      border-color: white;
+      border-style: solid;
+        border-radius: 20px;
+        border-width: 10px;
+    }
+       #Menshave{
+        width: 600px;
+        height: 130px;
+        float: right;
+        margin-top: 100px;
+        margin-left: 20px;
+        border-style: groove;
+        border-color: black;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: wheat;
+        font-size: 24px;
+       }
+        
+       </style>
+        <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=dcf96b1202d13' async='true'></script> 
+    </head>
+    <script>  
+        //show and hide dropdown list item on button click  
+        function show_hide() {  
+           var click = document.getElementById("list-items");  
+           if(click.style.display ==="none") {  
+              click.style.display ="block"; 
+             
+           } else {  
+              click.style.display ="none";  
+           }   
+        }  
+     </script> 
+    <body>
+        <header>
+            <h1 id="Fortyfour">Forty Four</h1>
+            <p>
+            <ul>
+                <li><a href="www.fortyfour.com.html">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li> <div class="dropdown">  
+                    <button onclick="show_hide()" class="button">Hair Cuts <img src="down arrow 2.png" id="downarrow2"></button>  
+                  
+                        <!-- dropdown list items will show when we click the drop button -->   
+                        <div id="list-items">  
+                           <a href="Men.html"> Men </a>  
+                           <a href="Women.html"> Women</a>  
+                           <a href="Kids.html"> Kids</a>  
+                           
+                        </div>
+                             
+                        </div>  
+                     </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+        </p>
+        </header>
+   <article>
+       <figure>
+        <img src="Men hair wash.jpg" alt="Men-hair-wash" >
+ <p id="hairwash">
+            We take Hair washing very seriously, using very specific products for each hair type, making sure your hair is clean and healthy.
+ </p>
+    </figure>
+    </article>
+    <article>
+        <figure>
+           
+            <p id="haircut1">
+            We think of hair cuts as art, because it really is art! and we gathered the best artists around to guarantee we offer you the best out of a hair cut.           </p>
+            <img src="Men haircut1.jpeg" alt="Men-haircut1"> </figure>
+    </article>
+    <article>
+        <figure>
+           
+            <p id="Menshave">
+            We know how delegate your skin is and understand how shaving can affect your skin and hair follicles, that's why we take that manner with extra caution using pre and after shave tratments and sterilized high quality shaving kits.          </p>
+            <img src="Men shave.jpg" alt="Menshave"> </figure>
+    </article>
+    </body>
+</html>

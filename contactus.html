@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title>Contact us</title>
+        <style type="text/css">
+        body{
+            background-image:url("contact\ us\ background.jpg");
+            background-repeat: no-repeat;
+            }
+            header{
+            position: relative;
+           
+           color: white;
+           padding-left: 240px;
+           vertical-align: middle;
+           margin-top: 0px;
+           
+           background-color:wheat;
+           border-top-color: wheat;
+           border-bottom: wheat;
+           border-right: wheat;
+           border-left-color:wheat;
+           z-index: 8px;
+  
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            font-family:Georgia, 'Times New Roman', Times;
+            padding-right: 300px;
+            color:saddlebrown;
+            font-weight: normal;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        #downarrow2{
+            width: 30px;
+            height: 30px;
+            border: none;
+           vertical-align: bottom;
+      
+        
+        }
+        ul, li{
+            display: inline;
+            font-size: 35px;
+            color:saddlebrown;
+            text-align: center;
+            padding-inline: 25px;
+
+
+        }
+         /* set the position of dropdown */  
+.dropdown {  
+     position: relative;  
+     display: inline-block;  
+    
+}  
+        #list-items a{
+            display: block;
+            
+        }
+        /* provide css to background of list items */   
+#list-items {  
+    display: none;  
+    position: absolute;
+background-color: white;
+  }
+.button{
+    color: saddlebrown;
+            font-style: normal;
+            text-decoration-style: none;
+            text-decoration: none;
+            border: none;
+            background-color: wheat;
+            font-size: 35px;
+            font-family: inherit;
+          
+}
+
+      
+        a{
+            color: saddlebrown;
+            font-style: normal;
+            text-decoration-style: none;
+            text-decoration: none;
+        }
+        #emailimg{
+            width: 100px;
+            height: 100px;
+            
+        }
+        #email{
+           float: left;
+           font-size: 30px;
+           margin-top: 200px;
+           background-color: blanchedalmond;
+           border: gray;
+           border-style: solid;
+           border-radius: 30px;
+           margin-left:0px;
+                margin-right: 400px;
+           border-width: 10px;
+           width: 400px;
+           height: 200px;
+           padding-top: 0px;
+           padding-right: 10px;
+           padding-left: 10px;
+           text-align: center;
+
+        }
+           
+                #phone{
+              
+                border-width: 20px;
+                background-color: blanchedalmond;
+                border-radius: 30px;
+                margin-left:100px;
+                margin-right: 0px;
+                float: right;
+           font-size: 30px;
+           margin-top: 200px;
+          
+           border: gray;
+           border-style: solid;
+           border-radius: 30px;
+        
+           border-width: 10px;
+           width: 400px;
+           height: 200px;
+           padding-top: 0px;
+           padding-right: 10px;
+           padding-left: 10px;
+           text-align: center;}
+
+           #phoneimg{
+            width: 100px;
+            height: 100px;
+            
+           }
+               </style>
+          <script>  
+            //show and hide dropdown list item on button click  
+            function show_hide() {  
+               var click = document.getElementById("list-items");  
+               if(click.style.display ==="none") {  
+                  click.style.display ="block"; 
+                 
+               } else {  
+                  click.style.display ="none";  
+               }   
+            }  
+         </script> 
+          <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=dcf96b1202d13' async='true'></script> 
+    </head>
+    <body>
+        <header>
+            <h1 id="Fortyfour">Forty Four</h1>
+            <p>
+            <ul>
+                <li><a href="www.fortyfour.com.html">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li> <div class="dropdown">  
+                    <button onclick="show_hide()" class="button">Hair Cuts <img src="down arrow 2.png" id="downarrow2"></button>  
+                  
+                        <!-- dropdown list items will show when we click the drop button -->   
+                        <div id="list-items">  
+                           <a href="Men.html"> Men </a>  
+                           <a href="Women.html"> Women</a>  
+                           <a href="Kids.html"> Kids</a>  
+                           
+                        </div>
+                             
+                        </div>  
+                     </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+        </p>
+        </header>
+        <div id="email">
+            <p id="emailp"><img src="email.png" id="emailimg" ><br/>
+                Email: <br/>
+                <a href="fortyfour.4494@gmail.com">fortyfour.4494@gmail.com</a></p>
+        </div>
+        <div id="phone">
+            <p id="phonep"><img src="phone.png" id="phoneimg" ><br/>
+                Tell&WhatsApp: <br/>
+                +971545237030</p>
+        </div>
+    </body>
+</html>
