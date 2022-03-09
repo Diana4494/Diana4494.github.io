@@ -1,0 +1,172 @@
+body{
+    background-image:url("shaving machines.jpg");
+    
+    background-position: center;
+ 
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+header{
+ 
+    position: relative;
+   color: saddlebrown;
+   vertical-align: middle;
+  
+   vertical-align: middle;
+ 
+   
+   background-color: wheat;
+   border-top-color: wheat;
+   border-bottom: wheat;
+   border-right: wheat;
+   border-left-color:wheat;
+ 
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times;
+    color: saddlebrown;
+    font-weight: normal;
+    padding-top: 20px;
+  
+}
+a{
+    color: saddlebrown;
+    font-style: normal;
+    text-decoration-style: none;
+    text-decoration: none;
+    vertical-align: middle;
+
+   
+    
+}
+#downarrow2{
+    width: 30px;
+    height: 30px;
+    border: none;
+    vertical-align: bottom;
+}
+ul, li{
+
+    display: inline;
+    font-size: 35px;
+    color:saddlebrown;
+    text-align: center;
+    padding-inline: 25px;
+    vertical-align: middle;
+   align-items: center;
+padding-left: 10px;
+}
+
+    
+
+#logo{
+margin-top: 40px;
+width: 200px;
+height: 200px;
+
+
+
+}
+#unisexd{
+
+background-color: wheat;
+min-height: 260px;
+border-radius: 40px;
+margin-top: 100px;   
+min-width:auto;
+max-width: 250px;
+padding-left: 0px;
+}
+/*the unisex image*/
+#unisex{
+
+padding-left: 35px;
+}
+
+
+
+#kidsplayaread{
+
+background-color: wheat;
+min-height: 250px;
+border-radius: 40px;
+align-content: center;
+padding-left: 0px;
+min-width:auto;
+max-width: 250px;
+margin-top: 100px; 
+}
+#kidsplayarealogo{
+padding-left: 30px;
+}
+
+
+#skincared{
+
+background-color: wheat;
+min-height: 250px;
+border-radius: 40px;
+min-width:auto;
+max-width: 250px;
+padding-left: 0px;
+
+margin-top: 100px; 
+}
+#skincarelogo{
+padding-left: 30px;
+}
+
+
+figure{
+    width: 200px;
+    height: 220px;
+
+}
+figure,img{
+    width: 100px;
+    height: 100px;
+text-align: center;
+
+
+
+}
+figcaption{
+width: 200px;
+    height: 200px;
+    font-size: 20px;
+
+}
+
+
+/* set the position of dropdown */  
+.dropdown {  
+position: relative;  
+display: inline-block;  
+z-index: 10;
+
+}  
+
+#list-items a{
+    display: block;
+    
+}
+/* provide css to background of list items */   
+#list-items {  
+display: none;  
+position: absolute;
+background-color: white;
+}
+.button{
+color: saddlebrown;
+    font-style: normal;
+    text-decoration-style: none;
+    text-decoration: none;
+    border: none;
+    background-color: wheat;
+    font-size: 35px;
+    font-family: inherit;
+  
+}
