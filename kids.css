@@ -1,0 +1,162 @@
+body{
+    background-image:url("kids background.jpg");
+    
+    background-position: center;
+ 
+    overscroll-behavior-block:inherit;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+header{
+
+position: relative;
+color: saddlebrown;
+vertical-align: middle;
+
+vertical-align: middle;
+
+
+background-color: skyblue;
+border-top-color: skyblue;
+border-bottom: skyblue;
+border-right: skyblue;
+border-left-color:skyblue;
+
+
+}
+h1{
+font-size: 50px;
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times;
+color: saddlebrown;
+font-weight: normal;
+padding-top: 20px;
+
+}
+a{
+color: saddlebrown;
+font-style: normal;
+text-decoration-style: none;
+text-decoration: none;
+vertical-align: middle;
+
+
+
+}
+#downarrow2{
+width: 30px;
+height: 30px;
+border: none;
+vertical-align: bottom;
+}
+ul, li{
+
+display: inline;
+font-size: 35px;
+color:saddlebrown;
+text-align: center;
+padding-inline: 25px;
+vertical-align: middle;
+align-items: center;
+padding-left: 10px;
+}
+ /* set the position of dropdown */  
+.dropdown {  
+position: relative;  
+display: inline-block;  
+
+}  
+#list-items a{
+    display: block;
+    
+}
+/* provide css to background of list items */   
+#list-items {  
+display: none;  
+position: absolute;
+background-color: white;
+}
+.button{
+color: saddlebrown;
+    font-style: normal;
+    text-decoration-style: none;
+    text-decoration: none;
+    border: none;
+    background-color: skyblue;
+    font-size: 35px;
+    font-family: inherit;
+  
+}
+
+a{
+    color: saddlebrown;
+    font-style: normal;
+    text-decoration-style: none;
+    text-decoration: none;
+}
+    
+
+
+
+#kidshaircut {
+width: 600px;
+height: 120px;
+
+margin-top: 100px;
+margin-left: 20px;
+border-style: groove;
+border-color: palevioletred;
+padding: 20px;
+border-radius: 20px;
+background-color: powderblue;
+font-size: 24px;
+
+}
+#haircutimg{
+border-color: skyblue;
+border-style: solid;
+border-radius: 20px;
+border-width: 10px;
+padding: 0px;
+}
+#kidsplayarea1{
+width: 600px;
+height: 170px;
+
+margin-top: 100px;
+
+border-style: groove;
+border-color: turquoise;
+padding: 20px;
+border-radius: 20px;
+background-color:mistyrose;
+font-size: 24px;
+}
+#kidsplayareaimg{
+border-color: skyblue;
+border-style: solid;
+border-radius: 20px;
+border-width: 10px;
+padding: 0px;
+}
+ #babysitter1{
+width: 600px;
+height: 140px;
+
+margin-top: 100px;
+margin-left: 20px;
+border-style: groove;
+border-color: violet;
+padding: 20px;
+border-radius: 20px;
+background-color: pink;
+font-size: 24px;
+}
+#babysitterimg{
+border-color: skyblue;
+border-style: solid;
+border-radius: 20px;
+border-width: 10px;
+padding: 0px;
+}
